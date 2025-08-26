@@ -1,6 +1,6 @@
 [
   {
-    "img": "/light/assets/imgs/works/1/1.jpg",
+    "img": "/light/assets/imgs/works/1/janosblog.png",
     "title": "Jano's Eventos Blog",
     "subTitle": "Desarrollo Full Stack",
     "link": "/light/project1"
@@ -36,7 +36,7 @@
     "link": "/light/project7"
   },
   {
-    "img": "/light/assets/imgs/works/1/maderascaballeros.png",
+    "img": "/light/assets/imgs/works/1/maderascaballero.png",
     "title": "Maderas Caballeros",
     "subTitle": "Web + Sistema Interno Completo - React Js + Next.js",
     "link": "/light/project8"
