@@ -115,7 +115,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3">
+        <!-- <div class="col-lg-3">
           <div class="cont-info">
             <div class="item mb-50">
               <h6 class="sub-title mb-15 opacity-7">Address</h6>
@@ -159,7 +159,7 @@
               </h5>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
