@@ -41,66 +41,46 @@
         </div>
         <div class="col-lg-6 offset-lg-1 valign">
           <div class="full-width">
-            <form id="contact-form" method="post" action="contact.php">
-              <div class="messages"></div>
-
-              <div class="controls row">
-                <div class="col-lg-6">
-                  <div class="form-group mb-30">
-                    <input
-                      id="form_name"
-                      type="text"
-                      name="name"
-                      placeholder="Nombre"
-                      required
-                    />
+            <div class="contact-info">
+              <div class="contact-methods">
+                <div class="contact-method mb-40">
+                  <div class="icon mb-20">
+                    <i class="ti-phone"></i>
                   </div>
+                  <h5>Llamada Directa</h5>
+                  <p>¿Prefieres hablar por teléfono? Llámame directamente</p>
+                  <a href="tel:+541166068541" class="butn butn-bord radius-30">
+                    <span class="text">Llamar Ahora</span>
+                  </a>
                 </div>
-
-                <div class="col-lg-6">
-                  <div class="form-group mb-30">
-                    <input
-                      id="form_email"
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      required
-                    />
+                
+                <div class="contact-method mb-40">
+                  <div class="icon mb-20">
+                    <i class="ti-email"></i>
                   </div>
+                  <h5>Email</h5>
+                  <p>Enviar un correo electrónico detallado</p>
+                  <a href="mailto:mazalautarodamian.dev@gmail.com" class="butn butn-bord radius-30">
+                    <span class="text">Enviar Email</span>
+                  </a>
                 </div>
-
-                <div class="col-12">
-                  <div class="form-group mb-30">
-                    <input
-                      id="form_subject"
-                      type="text"
-                      name="subject"
-                      placeholder="Asunto"
-                    />
+                
+                <div class="contact-method">
+                  <div class="icon mb-20">
+                    <i class="ti-mobile"></i>
                   </div>
-                </div>
-
-                <div class="col-12">
-                  <div class="form-group">
-                    <textarea
-                      id="form_message"
-                      name="message"
-                      placeholder="Mensaje"
-                      rows="4"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="mt-30">
-                    <button
-                      type="submit"
-                      class="butn butn-full butn-bord radius-30"
-                    >
-                      <span class="text">Hablemos</span>
-                    </button>
-                  </div>
+                  <h5>WhatsApp</h5>
+                  <p>¡Hablemos por WhatsApp! Es la forma más rápida</p>
+                  <a 
+                    href="https://wa.me/541166068541?text=Hola%20Lautaro!%20Me%20interesa%20trabajar%20contigo%20en%20mi%20proyecto%20web.%20¿Podemos%20conversar?" 
+                    target="_blank" 
+                    class="butn butn-full butn-bord radius-30 whatsapp-btn"
+                  >
+                    <span class="text">💬 Hablemos por WhatsApp</span>
+                  </a>
                 </div>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
@@ -133,5 +113,81 @@
 /* Eliminar cualquier margen o padding innecesario */
 .contact-crev.section-padding {
   padding-bottom: 100px;
+}
+
+/* Estilos para los métodos de contacto */
+.contact-methods {
+  padding: 20px 0;
+}
+
+.contact-method {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-method:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--main-color, #007bff);
+}
+
+.contact-method .icon {
+  font-size: 2.5rem;
+  color: var(--main-color, #007bff);
+}
+
+.contact-method h5 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.contact-method p {
+  color: #999;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.contact-method .butn {
+  transition: all 0.3s ease;
+}
+
+.contact-method .butn:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo especial para el botón de WhatsApp */
+.whatsapp-btn {
+  background: linear-gradient(45deg, #25d366, #128c7e);
+  border-color: #25d366;
+  color: white;
+}
+
+.whatsapp-btn:hover {
+  background: linear-gradient(45deg, #128c7e, #25d366);
+  border-color: #128c7e;
+}
+
+.whatsapp-btn .text {
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-method {
+    margin-bottom: 30px;
+  }
+  
+  .contact-method .icon {
+    font-size: 2rem;
+  }
+  
+  .contact-method h5 {
+    font-size: 1.1rem;
+  }
 }
 </style>
