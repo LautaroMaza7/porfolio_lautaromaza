@@ -1,5 +1,23 @@
 [
   {
+    "img": "/light/assets/imgs/works/1/somosluxgroup.png",
+    "title": "Somos Lux Group",
+    "subTitle": "Agencia de Desarrollos Inmobiliarios - React Js + Node.js",
+    "link": "/light/project5"
+  },
+  {
+    "img": "/light/assets/imgs/works/1/homeinspection.png",
+    "title": "Homeinspection",
+    "subTitle": "Web de Inspecciones para Hogares - Vue.js + Node.js",
+    "link": "/light/project6"
+  },
+  {
+    "img": "/light/assets/imgs/works/1/tucsdrinks.png",
+    "title": "TUCS.DRINKS",
+    "subTitle": "E-commerce de Bebidas - React Js + Next.js",
+    "link": "/light/project7"
+  },
+  {
     "img": "/light/assets/imgs/works/1/janosblog.png",
     "title": "Jano's Eventos Blog",
     "subTitle": "Desarrollo Full Stack",
@@ -16,24 +34,6 @@
     "title": "Dic Security",
     "subTitle": "Web Institucional - React Js + Node.js",
     "link": "/light/project3"
-  },
-  {
-    "img": "/light/assets/imgs/works/1/somosluxgroup.png",
-    "title": "Somos Lux Group",
-    "subTitle": "Agencia de Desarrollos Inmobiliarios - React Js + Node.js",
-    "link": "/light/project5"
-  },
-  {
-    "img": "/light/assets/imgs/works/1/homeinspection.png",
-    "title": "Homeinspection",
-    "subTitle": "Web de Inspecciones para Hogares - Vue.js + Node.js",
-    "link": "/light/project6"
-  },
-  {
-    "img": "/light/assets/imgs/works/1/tucsdrinks.png",
-    "title": "Tucs Drinks",
-    "subTitle": "E-commerce de Bebidas - React Js + Next.js",
-    "link": "/light/project7"
   },
   {
     "img": "/light/assets/imgs/works/1/maderascaballero.png",
