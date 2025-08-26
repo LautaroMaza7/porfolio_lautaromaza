@@ -150,7 +150,7 @@ export default defineNuxtConfig({
             "name": "Lautaro Maza",
             "jobTitle": "Desarrollador Full Stack",
             "url": "https://lautaromaza.dev/",
-            "image": "https://lautaromaza.dev/dark/assets/imgs/profile-lautaro-maza.jpg",
+            "image": "https://lautaromaza.dev/light/assets/imgs/works/1/janosblog.png",
             "description": "Desarrollador Full Stack con más de 3 años de experiencia creando sitios web, aplicaciones y plataformas digitales.",
             "sameAs": [
               "https://github.com/LautaroMaza7",
