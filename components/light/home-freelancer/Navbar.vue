@@ -1,12 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg bord blur">
     <div class="container">
-      <a class="logo icon-img-100" href="#">
-        <img src="/light/assets/imgs/logo-light.png" alt="logo" />
+      <a class="logo" href="#">
+        <span class="logo-text">Lautaro</span>
       </a>
 
       <button
-        class="navbar-toggler"
+        class="navbar-toggler d-none"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -66,8 +66,8 @@
   </nav>
 
   <div :class="`hamenu ${isOpen && 'open'}`">
-    <div class="logo icon-img-100">
-      <img src="/light/assets/imgs/logo-light.png" alt="" />
+    <div class="logo">
+      <span class="logo-text">Lautaro</span>
     </div>
     <div @click="closeMenu" class="close-menu cursor-pointer ti-close"></div>
     <div class="container">
@@ -312,3 +312,38 @@ function scrollToSection(id) {
   }
 }
 </script>
+
+<style scoped>
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Ocultar el botón de navegación en móvil */
+.navbar-toggler.d-none {
+  display: none !important;
+}
+
+/* Responsive para el logo */
+@media (max-width: 768px) {
+  .logo-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    font-size: 1.3rem;
+  }
+}
+</style>
