@@ -24,20 +24,14 @@
               <div class="img">
                 <img :src="item.img" :alt="item.title" />
               </div>
-              <div
-                class="cont d-flex align-items-center mt-30 pb-15 bord-thin-bottom"
-              >
-                <div>
+              <div class="cont">
+                <div class="content-info">
                   <h5>{{ item.title }}</h5>
                   <p>{{ item.subTitle }}</p>
                 </div>
-                <div class="ml-auto">
-                  <a :href="item.link" class="rmore">
-                    <img
-                      src="/light/assets/imgs/arrow-right.png"
-                      alt=""
-                      class="icon-img-20"
-                    />
+                <div class="action-btn">
+                  <a :href="item.link" class="butn butn-md main-colorbg radius-30 mt-40">
+                    <span class="text">Ver Proyecto</span>
                   </a>
                 </div>
               </div>
@@ -87,3 +81,123 @@ const swiperOptions = {
   },
 };
 </script>
+
+<style scoped>
+.portfolio-carsouel .item {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.portfolio-carsouel .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-carsouel .item .img {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-carsouel .item .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-carsouel .item:hover .img img {
+  transform: scale(1.02);
+}
+
+.portfolio-carsouel .item .cont {
+  flex: 1;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 120px;
+}
+
+.portfolio-carsouel .item .content-info {
+  flex: 1;
+}
+
+.portfolio-carsouel .item .cont h5 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.portfolio-carsouel .item .cont p {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.portfolio-carsouel .item .action-btn {
+  margin-top: auto;
+  text-align: center;
+}
+
+.portfolio-carsouel .item .action-btn .butn {
+  width: 100%;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.portfolio-carsouel .item .action-btn .butn .text {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.portfolio-carsouel .item .action-btn .butn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .portfolio-carsouel .item {
+    height: 450px;
+  }
+  
+  .portfolio-carsouel .item .img {
+    height: 300px;
+  }
+  
+  .portfolio-carsouel .item .cont {
+    min-height: 100px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-carsouel .item {
+    height: 400px;
+  }
+  
+  .portfolio-carsouel .item .img {
+    height: 250px;
+  }
+  
+  .portfolio-carsouel .item .cont {
+    padding: 18px;
+  }
+}
+</style>
