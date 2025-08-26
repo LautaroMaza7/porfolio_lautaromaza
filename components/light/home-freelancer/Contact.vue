@@ -49,7 +49,7 @@
                   </div>
                   <h5>Llamada Directa</h5>
                   <p>¿Prefieres hablar por teléfono? Llámame directamente</p>
-                  <a href="tel:+541166068541" class="butn butn-bord radius-30">
+                  <a href="tel:+541166068541" class="butn butn-md main-colorbg radius-30">
                     <span class="text">Llamar Ahora</span>
                   </a>
                 </div>
@@ -60,7 +60,7 @@
                   </div>
                   <h5>Email</h5>
                   <p>Enviar un correo electrónico detallado</p>
-                  <a href="mailto:mazalautarodamian.dev@gmail.com" class="butn butn-bord radius-30">
+                  <a href="mailto:mazalautarodamian.dev@gmail.com" class="butn butn-md main-colorbg radius-30">
                     <span class="text">Enviar Email</span>
                   </a>
                 </div>
@@ -154,10 +154,26 @@
 
 .contact-method .butn {
   transition: all 0.3s ease;
+  width: 100%;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: none;
 }
 
 .contact-method .butn:hover {
-  transform: scale(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para botones principales (Llamar y Email) */
+.contact-method .butn.main-colorbg .text {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.contact-method .butn.main-colorbg:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 /* Estilo especial para el botón de WhatsApp */

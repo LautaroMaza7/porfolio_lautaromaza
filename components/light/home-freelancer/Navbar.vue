@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg bord blur">
     <div class="container">
       <a class="logo" href="#">
-        <span class="logo-text">Lautaro</span>
+        <span class="logo-text logo-black">Lautaro</span>
       </a>
 
       <button
@@ -67,7 +67,7 @@
 
   <div :class="`hamenu ${isOpen && 'open'}`">
     <div class="logo">
-      <span class="logo-text">Lautaro</span>
+      <span class="logo-text logo-black">Lautaro</span>
     </div>
     <div @click="closeMenu" class="close-menu cursor-pointer ti-close"></div>
     <div class="container">
@@ -323,11 +323,16 @@ function scrollToSection(id) {
 .logo-text {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #fff;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
 }
+.logo-black{
+  color: black!important;
+}
+
+
+
 
 /* Ocultar el botón de navegación en móvil */
 .navbar-toggler.d-none {
