@@ -22,7 +22,7 @@
           <SwiperSlide v-for="(item, i) in data" :key="i">
             <div class="item">
               <div class="img">
-                <img :src="item.img" alt="" />
+                <img :src="item.img" :alt="item.title" />
               </div>
               <div
                 class="cont d-flex align-items-center mt-30 pb-15 bord-thin-bottom"
@@ -57,7 +57,7 @@ import { Navigation, Pagination } from 'swiper';
 const swiperOptions = {
   modules: [Navigation],
   speed: 600,
-  loop: true,
+  loop: false,
   navigation: {
     nextEl: '.swiper-arrow-control .swiper-button-next',
     prevEl: '.swiper-arrow-control .swiper-button-prev',
@@ -65,21 +65,21 @@ const swiperOptions = {
   breakpoints: {
     // when window width is >= 640px
     640: {
-      loop: true,
+      loop: false,
       slidesPerView: 1,
       spaceBetween: 20,
       centeredSlides: false,
     },
     // when window width is >= 768px
     768: {
-      loop: true,
+      loop: false,
       slidesPerView: 2,
       spaceBetween: 50,
       centeredSlides: false,
     },
     // when window width is >= 1200px
     1200: {
-      loop: true,
+      loop: false,
       slidesPerView: 2,
       spaceBetween: 100,
       centeredSlides: true,
