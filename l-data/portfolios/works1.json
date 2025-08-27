@@ -1,9 +1,15 @@
 [
   {
-    "img": "/light/assets/imgs/works/1/somosluxgroup.png",
-    "title": "Somos Lux Group",
-    "subTitle": "Agencia de Desarrollos Inmobiliarios - React Js + Node.js",
-    "link": "/light/project5"
+    "img": "/light/assets/imgs/works/1/dicss.png",
+    "title": "Dic Security",
+    "subTitle": "Web Institucional de Seguridad - React Js + Node.js",
+    "link": "/light/project3"
+  },
+  {
+    "img": "/light/assets/imgs/works/1/tucsdigital.png",
+    "title": "Tucs Digital",
+    "subTitle": "Agencia Desarrolladora Web -Vue.js + Node.js",
+    "link": "/light/project2"
   },
   {
     "img": "/light/assets/imgs/works/1/homeinspection.png",
@@ -13,32 +19,26 @@
   },
   {
     "img": "/light/assets/imgs/works/1/tucsdrinks.png",
-    "title": "TUCS.DRINKS",
+    "title": "Tucs Drinks",
     "subTitle": "E-commerce de Bebidas - React Js + Next.js",
     "link": "/light/project7"
   },
   {
+    "img": "/light/assets/imgs/works/1/maderascaballero.png",
+    "title": "Maderas Caballeros",
+    "subTitle": "E-commerce + Sistema Interno Completo - React Js + Next.js",
+    "link": "/light/project8"
+  },
+  {
     "img": "/light/assets/imgs/works/1/janosblog.png",
     "title": "Jano's Eventos Blog",
-    "subTitle": "Desarrollo Full Stack",
+    "subTitle": "Blog de Eventos - React Js + Next.js",
     "link": "/light/project1"
   },
   {
-    "img": "/light/assets/imgs/works/1/tucsdigital.png",
-    "title": "Tucs Digital",
-    "subTitle": "Agencia Desarrolladora Web -Vue.js + Node.js",
-    "link": "/light/project2"
-  },
-  {
-    "img": "/light/assets/imgs/works/1/dicss.png",
-    "title": "Dic Security",
-    "subTitle": "Web Institucional - React Js + Node.js",
-    "link": "/light/project3"
-  },
-  {
-    "img": "/light/assets/imgs/works/1/maderascaballero.png",
-    "title": "Maderas Caballeros",
-    "subTitle": "Web + Sistema Interno Completo - React Js + Next.js",
-    "link": "/light/project8"
+    "img": "/light/assets/imgs/works/1/somosluxgroup.png",
+    "title": "Somos Lux Group",
+    "subTitle": "Agencia de Desarrollos Inmobiliarios - React Js + Node.js",
+    "link": "/light/project5"
   }
 ]
