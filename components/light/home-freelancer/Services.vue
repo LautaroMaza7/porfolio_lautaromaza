@@ -5,12 +5,12 @@
         <h6 class="sub-title main-color mb-25">🚀 Nuestros Servicios</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2>Lo que <span class="fw-200">Ofrezco</span></h2>
-          <div class="ml-auto">
+          <!-- <div class="ml-auto">
             <a href="#" class="go-more">
               <span class="text">Ver todos los servicios</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="row">
@@ -21,14 +21,14 @@
             <p>
               Creación de sitios web responsivos, landing pages, e-commerce y blogs con las últimas tecnologías. Enfoque en rendimiento, SEO y experiencia de usuario.
             </p>
-            <a href="#" class="rmore mt-30">
+            <!-- <a href="#" class="rmore mt-30">
               <span class="sub-title">Leer Más</span>
               <img
                 src="/light/assets/imgs/arrow-right.png"
                 alt=""
                 class="icon-img-20 ml-5"
               />
-            </a>
+            </a> -->
           </div>
         </div>
         <div class="col-lg-4">
@@ -38,14 +38,14 @@
             <p>
               Desarrollo de aplicaciones móviles nativas y multiplataforma usando Flutter, React Native y tecnologías modernas para iOS y Android.
             </p>
-            <a href="#" class="rmore mt-30">
+            <!-- <a href="#" class="rmore mt-30">
               <span class="sub-title">Leer Más</span>
               <img
                 src="/light/assets/imgs/arrow-right.png"
                 alt=""
                 class="icon-img-20 ml-5"
               />
-            </a>
+            </a> -->
           </div>
         </div>
         <div class="col-lg-4">
@@ -55,14 +55,14 @@
             <p>
               Desarrollo de APIs RESTful, sistemas de base de datos, autenticación y lógica de negocio robusta usando Node.js, PHP y bases de datos SQL/NoSQL.
             </p>
-            <a href="#" class="rmore mt-30">
+            <!-- <a href="#" class="rmore mt-30">
               <span class="sub-title">Leer Más</span>
               <img
                 src="/light/assets/imgs/arrow-right.png"
                 alt=""
                 class="icon-img-20 ml-5"
               />
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
