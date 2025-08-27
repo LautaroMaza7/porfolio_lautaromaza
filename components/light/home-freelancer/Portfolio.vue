@@ -21,8 +21,8 @@
         <Swiper id="content-carousel-container-unq-work" v-bind="swiperOptions">
           <SwiperSlide v-for="(item, i) in data" :key="i">
             <div class="item">
-              <div class="img">
-                <img :src="item.img" :alt="item.title" />
+              <div class="img flex">
+                <img :src="item.img" :alt="item.title" class="img-fluid object-fit-cover" />
               </div>
               <div
                 class="cont d-flex align-items-center mt-30 pb-15 bord-thin-bottom"
