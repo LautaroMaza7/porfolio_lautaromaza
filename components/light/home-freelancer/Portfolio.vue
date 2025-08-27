@@ -24,14 +24,20 @@
               <div class="img">
                 <img :src="item.img" :alt="item.title" />
               </div>
-              <div class="cont">
-                <div class="content-info">
+              <div
+                class="cont d-flex align-items-center mt-30 pb-15 bord-thin-bottom"
+              >
+                <div>
                   <h5>{{ item.title }}</h5>
                   <p>{{ item.subTitle }}</p>
                 </div>
-                <div class="action-btn">
-                  <a :href="item.link" class="butn butn-md main-colorbg radius-30 mt-40">
-                    <span class="text">Ver Proyecto</span>
+                <div class="ml-auto">
+                  <a :href="item.link" class="rmore">
+                    <img
+                      src="/light/assets/imgs/arrow-right.png"
+                      alt=""
+                      class="icon-img-20"
+                    />
                   </a>
                 </div>
               </div>
