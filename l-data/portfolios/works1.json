@@ -40,5 +40,11 @@
     "title": "Somos Lux Group",
     "subTitle": "Agencia de Desarrollos Inmobiliarios - React Js + Node.js",
     "link": "/light/project5"
+  },
+  {
+    "img": "/light/assets/imgs/works/1/janoscorporativos.png",
+    "title": "Jano's Corporativos",
+    "subTitle": "Web Institucional de Eventos - React Js + Node.js",
+    "link": "/light/project4"
   }
 ]
